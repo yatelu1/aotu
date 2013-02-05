@@ -1,0 +1,8 @@
+body {
+    background: url("../images/body_bg.gif") repeat;
+    font-family: "微软雅黑", Tahoma, Arial;
+    font-size: 12px;
+}
+.hidden {
+    display: none;
+}

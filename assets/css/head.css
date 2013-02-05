@@ -1,0 +1,39 @@
+.head-warp {
+    background: url("../images/header.png") repeat-x;
+    height: 132px;
+}
+
+.header {
+    width: 1003px;
+    margin: 0 auto;
+    height: 80px;
+    background: url("../images/head-logo.png") center center no-repeat;
+}
+
+.foot-warp {
+    background: url("../images/footer.png") repeat-x;
+    height: 84px;
+    border-top: 2px solid #aaa;
+}
+
+.searchBar {
+    float: left;
+    margin: 25px 0 0 0;
+}
+
+.logFiled {
+    float: right;
+    margin: 30px 0 0 0;
+}
+.login li {
+    float: left;
+    margin-left: 20px;
+    display: inline;
+}
+.login li a {
+    font-size: 14px;
+    color: #999;
+}
+.login li a:hover {
+    color: #fff;
+}
