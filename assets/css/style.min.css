@@ -8,7 +8,6 @@ foot.css
 index.css
 */
 
-
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
@@ -64,16 +63,15 @@ a, a:hover {
     visibility: hidden;
 }
 
-
 body {
     background: url("../images/body_bg.gif") repeat;
     font-family: '微软雅黑', Tahoma, Arial;
     font-size: 12px;
 }
+
 .hidden {
     display: none;
 }
-
 
 .head-warp {
     background: url("../images/header.png") repeat-x;
@@ -265,23 +263,22 @@ body {
     border-bottom: 5px solid #ff0000;
     margin: 0;
     /*top: 125px;*/
-    bottom:0;
+    bottom: 0;
     display: none;
     left: 0;
 }
-
-
-
 
 .foot-warp {
     background: url("../images/footer.png") repeat-x;
     height: 84px;
     border-top: 2px solid #aaa;
 }
+
 .footer {
     width: 980px;
     margin: 0 auto;
 }
+
 .foot-logo {
     float: left;
     background: url("../images/foot-logo.png") no-repeat;
@@ -289,13 +286,13 @@ body {
     height: 45px;
     margin-top: 20px;
 }
+
 .copyright {
     color: #848484;
     float: right;
     margin-top: 35px;
     text-shadow: 1px 1px 1px #000;
 }
-
 
 .main {
     width: 960px;
@@ -313,13 +310,16 @@ body {
     width: 460px;
     height: 385px;
 }
+
 .list-show .small {
     width: 300px;
     height: 290px;
 }
+
 .list-show li .show-img {
     position: relative;
 }
+
 .list-show li .show-img b {
     background: url("../images/index-dot.gif") no-repeat;
     position: absolute;
@@ -333,6 +333,7 @@ body {
     height: 260px;
     display: block;
 }
+
 .list-show .small .show-img {
     height: 168px;
     display: block;
@@ -341,6 +342,7 @@ body {
 .list-show .large .info {
     margin: 25px 0 25px 30px;
 }
+
 .list-show .small .info {
     margin: 23px 0 20px 18px;
 }
@@ -350,123 +352,161 @@ body {
     margin: 0 15px 0 0;
     display: inline;
 }
+
 .list-show .info .list-title {
     line-height: 14px;
 }
+
 .list-show .info .list-title a {
     font-size: 14px;
     color: #333;
 }
+
 .list-show .info .author {
     color: #999;
 }
+
 .list-show .info .author a {
     color: #666;
 }
+
 .list-show .status {
     margin: 0 10px;
     border-top: 1px solid #dcdcdc;
     padding: 10px 0 0 0;
     text-align: right;
 }
+
 .list-show .status i {
     color: #666;
     font-style: normal;
     padding: 0 0 0 20px;
     margin: 0 10px 0 0;
 }
+
 .list-show .status .fav {
     background: url("../images/fav-icon.gif") no-repeat;
 }
+
 .list-show .status .msg {
     background: url("../images/msg-icon.gif") no-repeat;
 }
+
 .index h2 {
     background: url("../images/index-title.png") no-repeat;
     height: 22px;
     margin: 0 0 20px 0;
 }
+
 .index .dress-up {
- background-position: 0 0;
+    background-position: 0 0;
 }
+
 .index .home {
     background-position: 0 -23px;
 }
+
 .index .digital {
     background-position: 0 -46px;
 }
+
 .index .outdoor {
     background-position: 0 -69px;
 }
+
 .index .office {
     background-position: 0 -92px;
 }
+
 .index .toy {
     background-position: 0 -116px;
 }
+
 .index .art-work {
     background-position: 0 -138px;
 }
+
 .index {
     padding: 30px 0 20px 0;
 }
+
 .index,
 .list-page {
     padding: 30px 0 20px;
 }
+
 .list-page .dress-up {
     font-size: 22px;
     color: #333;
     text-shadow: 1px 1px 1px #FFF;
     margin: 0 0 20px 0;
 }
+
 .list-page .dress-up span {
     font-size: 18px;
     color: #666;
 }
+
 .list-view {
     margin: 0 0 20px 0;
 }
+
 .list-view li {
     float: left;
     margin: 0 10px 0 0;
     display: inline;
 }
+
 .list-view li a {
     font-size: 14px;
     color: #999;
 }
+
 .list-page .list-show li.small {
     height: auto;
 }
+
 .list-page .list-show .status {
     padding: 10px 0;
     text-align: left;
 }
+
 .list-page .list-show .status p {
-color: #848484;
+    color: #848484;
     margin-bottom: 15px;
 }
+
 .list-page .list-show .status i {
     float: right;
 }
+
 .list-page .list-show .status .time {
     float: left;
     background: url("../images/time-icon.gif") 0 center no-repeat;
 }
+
 .list-page .list-show .comment {
     margin: 0 10px;
     border-top: 1px solid #dcdcdc;
     padding: 10px 8px;
 }
+
 .list-page .list-show .comment .pic {
     display: inline;
     float: left;
     margin: 0 15px 0 0;
 }
+
 .list-page .list-show .comment .msg {
-color: #999;
+    color: #999;
 }
+
 .list-page .list-show .comment .msg span {
     color: #333;
+}
+
+#divMesgLoading {
+    text-align: center;
+    font-size: 24px;
+    color: #999;
 }
