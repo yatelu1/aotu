@@ -4,36 +4,192 @@
 }
 
 .header {
-    width: 1003px;
+    width: 1280px;
     margin: 0 auto;
     height: 80px;
     background: url("../images/head-logo.png") center center no-repeat;
 }
 
-.foot-warp {
-    background: url("../images/footer.png") repeat-x;
-    height: 84px;
-    border-top: 2px solid #aaa;
-}
-
 .searchBar {
     float: left;
-    margin: 25px 0 0 0;
+    margin: 25px 0 0 25px;
+    background: url("../images/search-bg.png") 0 0 no-repeat;
+    width: 185px;
+    height: 27px;
+}
+
+.search-input {
+    background: none;
+    border: none;
+    margin: 8px 0 0 10px;
+    width: 138px;
+}
+
+.search-submit {
+    background: none;
+    border: none;
+    width: 20px;
+    height: 23px;
+    cursor: pointer;
+    padding: 0;
+    vertical-align: top;
+}
+
+.app-icon {
+    float: left;
+    margin: 28px 0 0 20px;
+    display: inline-block;
+    background: url("../images/app-icon.png") 0 0 no-repeat;
+    width: 67px;
+    height: 24px;
 }
 
 .logFiled {
     float: right;
-    margin: 30px 0 0 0;
+    margin: 30px 30px 0 0;
 }
+
 .login li {
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
     display: inline;
+    position: relative;
 }
+
 .login li a {
     font-size: 14px;
     color: #999;
 }
-.login li a:hover {
+
+.login li .user-icon {
+    vertical-align: middle;
+}
+
+.login li a .plus {
+    color: #f10b0b;
+}
+
+.login li.on a {
     color: #fff;
 }
+
+.login li b {
+    border-color: #FFF transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin-left: 3px;
+    transition: transform 0.2s ease-in 0s;
+    -moz-transition: -moz-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    width: 0;
+    position: absolute;
+    top: 10px;
+}
+
+.login li.hover b {
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 20%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 20%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 20%;
+    transform: rotate(180deg);
+    transform-origin: 50% 20%;
+}
+
+#dropDown {
+    height: 35px;
+}
+
+.hasLogin .dropDownLayout {
+    left: 0;
+}
+
+.dropDownLayout {
+    position: absolute;
+    width: 120px;
+    background: #fcfcfc;
+    left: -35px;
+    top: 35px;
+    box-shadow: 1px 1px 2px #333;
+    display: none;
+}
+
+.dropDownLayout li {
+    margin: 0;
+    width: 100%;
+}
+
+.dropDownLayout li.even {
+    background: #d6d6d6;
+}
+
+.dropDownLayout li.qqIcon a,
+.dropDownLayout li.sinaIcon a,
+.dropDownLayout li.aotuIcon a {
+    background: url("../images/login-icon.png") no-repeat;
+}
+
+.dropDownLayout li.qqIcon a {
+    background-position: -25px 8px;
+}
+
+.dropDownLayout li.sinaIcon a {
+    background-position: -8px -20px;
+}
+
+.dropDownLayout li.aotuIcon a {
+    background-position: 12px -51px;
+}
+
+.login li .dropDownLayout li a {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    padding: 0 0 0 30px;
+}
+
+.dropDownLayout li a:hover {
+    color: #333;
+}
+
+.nav {
+    height: 50px;
+    width: 640px;
+    margin: 0 auto;
+    line-height: 50px;
+    position: relative;
+}
+
+.nav li {
+    float: left;
+    display: inline;
+    margin: 0 38px 0 0;
+}
+
+.nav li a {
+    font-size: 16px;
+    color: #666;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.nav li.current a,
+.nav li a:hover {
+    color: #000;
+}
+
+.nav li.back {
+    position: absolute;
+    border-bottom: 5px solid #ff0000;
+    margin: 0;
+    /*top: 125px;*/
+    bottom:0;
+    display: none;
+    left: 0;
+}
+

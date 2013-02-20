@@ -1,0 +1,22 @@
+.foot-warp {
+    background: url("../images/footer.png") repeat-x;
+    height: 84px;
+    border-top: 2px solid #aaa;
+}
+.footer {
+    width: 980px;
+    margin: 0 auto;
+}
+.foot-logo {
+    float: left;
+    background: url("../images/foot-logo.png") no-repeat;
+    width: 310px;
+    height: 45px;
+    margin-top: 20px;
+}
+.copyright {
+    color: #848484;
+    float: right;
+    margin-top: 35px;
+    text-shadow: 1px 1px 1px #000;
+}
