@@ -510,3 +510,192 @@ body {
     font-size: 24px;
     color: #999;
 }
+
+.detail-top {
+    background: #fff;
+    box-shadow: 0 1px 5px #999;
+    height: 445px;
+    padding: 50px 0 0 0;
+    margin-bottom: 30px;
+}
+
+.detail-show .video-play {
+    float: left;
+    width: 640px;
+}
+
+.detail-show .video-info {
+    float: right;
+    width: 300px;
+}
+
+.whoShare {
+    margin-bottom: 15px;
+}
+
+.whoShare .pic {
+    float: left;
+    margin: 0 14px 0 0;
+    display: inline;
+}
+
+.whoShare p {
+    line-height: 22px;
+    color: #999;
+}
+
+.whoShare p a {
+    color: #333;
+}
+
+.video-info .title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video-info .info {
+    font-size: 13px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.video-info .tags a,
+.video-info .tags {
+    font-size: 13px;
+    color: #999;
+    margin-right: 5px;
+}
+
+.video-info .tags {
+    margin-bottom: 20px;
+}
+
+.buyIt .btn {
+    background: url("../images/button.png") 0 0 no-repeat;
+    width: 286px;
+    height: 50px;
+    display: block;
+    font-size: 22px;
+    line-height: 50px;
+    color: #fff;
+    text-indent: 20px;
+    text-shadow: 0 -1px 1px #000;
+}
+
+.video-share {
+    margin-top: 30px;
+}
+
+.video-share i {
+    color: #666;
+    font-style: normal;
+    padding: 0 0 0 20px;
+    margin: 0 10px 0 0;
+}
+
+.video-share .play {
+    background: url("../images/play-icon.png") 0 0 no-repeat;
+}
+
+.video-share .msg {
+    background: url("../images/msg-icon.gif") 0 0 no-repeat;
+}
+
+.video-share .fav {
+    background: url("../images/fav-icon.gif") 0 0 no-repeat;
+}
+
+.video-share .share {
+    float: left;
+}
+
+.video-share .jiathis_style {
+    float: right;
+}
+
+.detail-comments {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.detail-comments .main-comments {
+    float: left;
+    width: 614px;
+}
+
+.detail-comments .slider-bar {
+    float: right;
+}
+
+.detail-comments .main-comments .textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.detail-comments .main-comments .send-btn {
+    background: url("../images/send-btn.png") 0 0 no-repeat;
+    width: 84px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.detail-comments .main-comments .comment-list {
+    margin-top: 40px;
+}
+.detail-comments .main-comments .comment-list h3 {
+    font-size: 14px;
+    color: #666;
+}
+.detail-comments .main-comments .comment-list h3 span {
+    color: #999;
+}
+.detail-comments .main-comments .comment-list .comment-el {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.detail-comments .main-comments .comment-list .last {
+    border-bottom: none;
+}
+.detail-comments .main-comments .comment-list .comment-el .pic {
+    float: left;
+    margin-right: 10px;
+}
+.detail-comments .main-comments .comment-list .comment-el .content {
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+}
+.detail-comments .main-comments .comment-list .comment-el .content a {
+    color: #333;
+}
+.detail-comments .main-comments .comment-list .comment-el .time {
+    color: #999;
+    float: right;
+    font-size: 13px;
+    margin-top: -15px;
+}
+.guess-you-like {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-comments .list-show .small {
+    margin-right: 14px;
+}
+.main-comments .list-show .nomargin {
+    margin-right: 0;
+}
+.slider-bar .product-ad {
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px #999999;
+}
+.slider-bar .product-ad img {
+    display: block;
+}
