@@ -297,6 +297,7 @@ body {
 .main {
     width: 960px;
     margin: 0 auto;
+    padding: 30px 0 20px;
 }
 
 .list-show li {
@@ -424,15 +425,6 @@ body {
 
 .index .art-work {
     background-position: 0 -138px;
-}
-
-.index {
-    padding: 30px 0 20px 0;
-}
-
-.index,
-.list-page {
-    padding: 30px 0 20px;
 }
 
 .list-page .dress-up {
@@ -644,58 +636,165 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .detail-comments .main-comments .comment-list {
     margin-top: 40px;
 }
+
 .detail-comments .main-comments .comment-list h3 {
     font-size: 14px;
     color: #666;
 }
+
 .detail-comments .main-comments .comment-list h3 span {
     color: #999;
 }
+
 .detail-comments .main-comments .comment-list .comment-el {
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #d2d2d2;
 }
+
 .detail-comments .main-comments .comment-list .last {
     border-bottom: none;
 }
+
 .detail-comments .main-comments .comment-list .comment-el .pic {
     float: left;
     margin-right: 10px;
 }
+
 .detail-comments .main-comments .comment-list .comment-el .content {
     color: #666;
     font-size: 13px;
     line-height: 20px;
 }
+
 .detail-comments .main-comments .comment-list .comment-el .content a {
     color: #333;
 }
+
 .detail-comments .main-comments .comment-list .comment-el .time {
     color: #999;
     float: right;
     font-size: 13px;
     margin-top: -15px;
 }
+
 .guess-you-like {
     font-size: 22px;
     color: #333;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .main-comments .list-show .small {
     margin-right: 14px;
 }
+
 .main-comments .list-show .nomargin {
     margin-right: 0;
 }
+
 .slider-bar .product-ad {
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px #999999;
 }
+
 .slider-bar .product-ad img {
     display: block;
+}
+
+.share-page .upload-title {
+    background: url("../images/upload-title.png") 0 0 no-repeat;
+    width: 220px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.share-page .step-block {
+    height: 76px;
+    background: #f0f0f0;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.step-block .step1 {
+    background: url("../images/upload-step1.png") 0 0 no-repeat;
+    width: 690px;
+    height: 54px;
+    margin: 0 auto;
+}
+.input {
+    width: 487px;
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    padding-left: 5px;
+}
+.textarea {
+    height: 150px;
+    width: 487px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    padding-left: 5px;
+}
+.upload-form .form-title,.upload-form .form-subtitle {
+    color: #666;
+    font-size: 18px;
+}
+.upload-form .form-subtitle {
+    font-size: 14px;
+}
+.upload-form td {
+    padding: 10px 0;
+}
+.form_radio {
+    float: left;
+    margin:0 40px 15px 0;
+    display: inline;
+}
+.form_radio label {
+    color: #666;
+    font-size: 14px;
+}
+.upload-form .save {
+    background: url("../images/save-btn.jpg") 0 0 no-repeat;
+    border: 0;
+    width: 93px;
+    height: 44px;
+    cursor: pointer;
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    line-height: 44px;
+}
+.upload-block {
+    padding-left: 10px;
+    position: relative;
+}
+.help-line{
+    color: #bababa;
+    font-size: 13px;
+}
+.upload-block .rules {
+    position: absolute;
+    background: url("../images/upload-rules.png") 0 0 no-repeat;
+    width: 272px;
+    height: 275px;
+    right: 0;
+    top: 0;
+    padding: 44px 30px 0 30px;
+    line-height: 26px;
+}
+.upload-block .rules h3 {
+    font-size: 16px;
+    color: #666;
+}
+.upload-block .rules p {
+    color: #848484;
+    font-size: 13px;
 }
