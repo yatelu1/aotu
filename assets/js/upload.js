@@ -14,8 +14,18 @@ Aotulife.upload = new (function () {
         $("input.tag").watermark("视频标签：");
         $("input.link").watermark("输入宝贝淘宝链接：");
         $("input.price").watermark("填写宝贝价格：");
+
+
+        var textButton = "<input type='text' name='textfield' id='textfield' class='input file' /> &nbsp;<input type='submit' name='button' id='button' value='浏览本地文件' class='btns' />"
+        $(textButton).insertBefore("#fileField");
+        $("#fileField").change(function () {
+            $("#textfield").val($("#fileField").val());
+        })
+
+
     }
 });
+
 $(function () {
     Aotulife.upload.onReady();
-})
+});
