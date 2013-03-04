@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>分享宝贝</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="list"/>
+
+<div class="share-page main">
+    <h2 class="upload-title png"></h2>
+
+    <div class="step-block">
+        <div class="step2"></div>
+    </div>
+    <div class="edit-wrap">
+        <div class="edit-title-block clearfix">
+            <h2 class="edit-title png"></h2>
+
+            <div class="edit-step edit-step2"></div>
+        </div>
+        <div class="edit-block clearfix">
+            <div class="edit-img"><img src="assets/images/edit-img.jpg" style="display: block"></div>
+            <div class="edit-detail">
+                <table class="insert-captions">
+                    <colgroup>
+                        <col width="28%">
+                        <col width="72%">
+                    </colgroup>
+                    <tr>
+                        <td>字幕：</td>
+                        <td><input type="text" class="input mid-input" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td>字体：</td>
+                        <td>
+                            <select>
+                                <option value ="volvo">Volvo</option>
+                                <option value ="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>字号：</td>
+                        <td>
+                            <select>
+                                <option value ="volvo">10</option>
+                                <option value ="saab">9</option>
+                                <option value="opel">8</option>
+                                <option value="audi">7</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>位置：</td>
+                        <td>
+                            <div class="form_radio">
+                                <input type="radio" name="choice"/>
+                                <label>居中</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="choice"/>
+                                <label>居左</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="choice"/>
+                                <label>居右</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>开始时间：</td>
+                        <td><input type="text" class="input small-input" name=""/></td>
+                    </tr>
+                    <tr>
+                        <td>结束时间：</td>
+                        <td><input type="text" class="input small-input" name=""/></td>
+                    </tr>
+
+                </table>
+                <div class="table-btn"><a href="#" class="btns">确认</a></div>
+            </div>
+        </div>
+        <div class="edit-button">
+            <a href="#" class="btns">返回上一步</a>
+            <a href="#" class="btn-cancel">清除全部特效</a>
+            <a href="#" class="btns btn-submit">发 布</a>
+        </div>
+    </div>
+
+
+</div>
+<!--#include virtual="modules/foot.html"-->
+<script type="text/javascript" src="assets/js/upload.js"></script>
+</body>
+</html>
