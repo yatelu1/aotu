@@ -5,4 +5,4 @@ aotu
 
 3.1 更新update 页面的input file模拟样式，和edit页面的第一个步骤。
 
-3.1 更新edit video 页面 第二步 插入字幕，且修复部分bug。
+3.4 更新edit video 页面 第二步 插入字幕，且修复部分bug。
