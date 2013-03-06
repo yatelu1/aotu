@@ -727,9 +727,11 @@ body {
     height: 54px;
     margin: 0 auto;
 }
+
 .step-block .step2 {
     background: url("../images/upload-step2.png") 0 0 no-repeat;
 }
+
 .input {
     width: 487px;
     height: 38px;
@@ -773,6 +775,7 @@ body {
 .form_radio label {
     color: #666;
     font-size: 14px;
+    vertical-align: bottom;
 }
 
 .upload-form .save {
@@ -821,6 +824,7 @@ body {
 .type-file-box {
     position: relative;
 }
+
 .file {
     width: 70%;
 }
@@ -839,6 +843,7 @@ body {
     padding: 10px 20px;
     position: relative;
 }
+
 .btn-cancel {
     border: 1px solid #D2D2D2;
     border-radius: 5px;
@@ -849,6 +854,7 @@ body {
     background: #ededed;
     position: relative;
 }
+
 .btn-submit {
     background: -webkit-linear-gradient(top, #2a2a2a, #010101);
     background: -o-linear-gradient(top, #2a2a2a, #010101);
@@ -870,34 +876,50 @@ body {
     width: 150px;
     cursor: pointer;
 }
+
 .edit-title-block {
     margin-bottom: 20px;
 }
+
 .edit-title {
     background: url("../images/edit-title.png") 0 0 no-repeat;
     width: 93px;
     height: 27px;
     float: left;
 }
+
 .edit-step {
     background: url("../images/edit-step.png") 0 0 no-repeat;
     width: 532px;
     height: 28px;
     float: right;
 }
+
 .edit-step1 {
     background-position: 0 0;
 }
+
 .edit-step2 {
     background-position: 0 -28px;
 }
+
+.edit-step3 {
+    background-position: 0 -56px;
+}
+
+.edit-step4 {
+    background-position: 0 -84px;
+}
+
 .edit-block {
     box-shadow: 1px 1px 6px #999;
     margin-bottom: 65px;
 }
+
 .edit-block .edit-img {
     float: left;
 }
+
 .edit-block .edit-detail {
     float: left;
     width: 325px;
@@ -905,58 +927,124 @@ body {
     background: #fff;
     padding: 20px 0 0 15px;
 }
-.filter-list li{
+
+.filter-list li {
     float: left;
-    width: 68px;
     text-align: center;
     margin: 0 10px 20px 0;
 }
+
 .filter-list li img {
     display: block;
     margin-bottom: 10px;
     border: 2px solid #fff;
 }
+
 .filter-list li span {
     color: #666;
     font-size: 13px;
 }
+
 .filter-list li.selected img {
     border: 2px solid #be2222;
     border-radius: 2px;
 }
+
 .edit-button {
     margin-bottom: 150px;
     text-align: center;
 }
+
 .edit-button .btns {
     font-size: 18px;
     margin-right: 20px;
 }
+
 .edit-button .btn-cancel {
     margin-right: 20px;
 }
+
 .mid-input {
     width: 194px;
 }
+
 .small-input {
     width: 150px;
 }
+
 .insert-captions {
     width: 100%;
 }
+
 .insert-captions td {
     font-size: 14px;
     color: #666;
 }
+
 .insert-captions .form_radio {
     margin-bottom: 0;
     margin-right: 20px;
 }
+
 .insert-captions select {
     width: 156px;
     height: 36px;
 }
+
 .insert-captions td {
     height: 45px;
     line-height: 45px;
+}
+
+.edit-block .edit-audio {
+    padding-left: 0;
+    width: 340px;
+}
+
+.choice-wrap {
+    border-bottom: 1px solid #dadada;
+    padding-left: 15px;
+}
+
+.edit-audio .filter-list {
+    margin: 15px 0 0 36px;
+}
+
+.edit-audio .filter-list li {
+    margin-right: 35px;
+}
+
+.audio-wrap {
+    margin: 25px 0 0 20px;
+}
+.audio-wrap .file {
+    width: 48%;
+}
+.audio-wrap .type-file-file {
+    cursor: pointer;
+}
+.audio-wrap .info {
+    font-size: 14px;
+    color: #a6a6a6;
+    margin-top: 40px;
+}
+.my-audio-title {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.my-audios li {
+    float: left;
+    margin: 5px 13px;
+
+}
+.my-audios li a {
+    font-size: 13px;
+    color: #775959;
+}
+.gotos {
+    position: fixed;
+    z-index: 10;
+    display: none;
+    right: 20px;
+    bottom: 90px;
 }

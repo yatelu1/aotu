@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>分享宝贝</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+<!--#include virtual="modules/head.html"-->
+<input type="hidden" id="current-page" value="list"/>
+
+<div class="share-page main">
+    <h2 class="upload-title png"></h2>
+
+    <div class="step-block">
+        <div class="step2"></div>
+    </div>
+    <div class="edit-wrap">
+        <div class="edit-title-block clearfix">
+            <h2 class="edit-title png"></h2>
+            <div class="edit-step edit-step4"></div>
+        </div>
+        <div class="edit-block clearfix">
+            <div class="edit-img"><img src="assets/images/edit-img.jpg" style="display: block"></div>
+            <div class="edit-detail edit-audio">
+                <div class="choice-wrap clearfix">
+                    <div class="form_radio">
+                        <input type="radio" name="choice"/>
+                        <label>背景音乐</label>
+                    </div>
+                    <div class="form_radio">
+                        <input type="radio" name="choice"/>
+                        <label>本地音乐文件</label>
+                    </div>
+                </div>
+                <div class="audio-wrap">
+                    <div>
+                        <img src="assets/images/temp.png" alt="上传控件">
+                    </div>
+                    <p class="info">
+                        请选择您电脑中小于5M的音乐文件!<br/>
+                        请勿上传非音乐文件或者非mp3文件!
+                    </p>
+                    <p class="my-audio-title">我的背景音乐：</p>
+                    <ul class="my-audios">
+                        <li><a href="#">背景音乐01</a></li>
+                        <li><a href="#">背景音乐01</a></li>
+                        <li><a href="#">背景音乐01</a></li>
+                        <li><a href="#">背景音乐01</a></li>
+                        <li><a href="#">背景音乐01</a></li>
+                        <li><a href="#">背景音乐01</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="edit-button">
+            <a href="#" class="btns">返回上一步</a>
+            <a href="#" class="btn-cancel">清除全部特效</a>
+            <a href="#" class="btns btn-submit">发 布</a>
+        </div>
+    </div>
+
+
+
+</div>
+<!--#include virtual="modules/foot.html"-->
+<script type="text/javascript" src="assets/js/upload.js"></script>
+</body>
+</html>

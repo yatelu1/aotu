@@ -50,6 +50,16 @@ Aotulife.head = new (function () {
                 $(this).parents('.searchBar').css('background-position', '0 -27px')
             }
         });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".gotos").stop(true, true).show();
+            } else {
+                $(".gotos").stop(true, true).hide();
+            }
+        });
+        $(".goto-top").click(function () {
+            $('html,body').animate({ scrollTop:0 }, 500);
+        });
 
     }
 });
