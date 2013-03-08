@@ -155,7 +155,7 @@ body {
     font-size: 0;
     height: 0;
     line-height: 0;
-    left: 33px;
+    right: -13px;
     transition: transform 0.2s ease-in 0s;
     -moz-transition: -moz-transform .2s ease-in;
     -o-transition: -o-transform .2s ease-in;
@@ -178,7 +178,9 @@ body {
 #dropDown {
     height: 35px;
 }
-
+.hasLogin li b {
+    border-color: #999 transparent transparent;
+}
 .hasLogin .dropDownLayout {
     left: 0;
 }
@@ -397,6 +399,7 @@ body {
     background: url("../images/index-title.png") no-repeat;
     height: 22px;
     margin: 0 0 20px 0;
+    width: 100%;
 }
 
 .index .dress-up {
