@@ -331,7 +331,19 @@ body {
     width: 22px;
     height: 14px;
 }
-
+.list-show li .show-img .onplay {
+    background: url("http://test2.i-tv.com/index/Tpl/aotu/public/images/onplay.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 96px;
+    height: 96px;
+    margin: -28px 0 0 -28px;
+    display: none;
+}
+.list-show li .show-img:hover .onplay {
+    display: block;
+}
 .list-show .large .show-img {
     height: 260px;
     display: block;
