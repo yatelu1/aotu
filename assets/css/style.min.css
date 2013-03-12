@@ -498,6 +498,7 @@ body {
     border-top: 1px solid #dcdcdc;
     padding: 10px 8px;
     clear: both;
+    *margin-bottom: 10px;
 }
 
 .list-page .list-show .comment .pic {
