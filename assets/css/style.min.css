@@ -476,6 +476,7 @@ body {
 .list-page .list-show .status {
     padding: 10px 0;
     text-align: left;
+    *padding-bottom: 0;
 }
 
 .list-page .list-show .status p {
@@ -496,6 +497,7 @@ body {
     margin: 0 10px;
     border-top: 1px solid #dcdcdc;
     padding: 10px 8px;
+    clear: both;
 }
 
 .list-page .list-show .comment .pic {
